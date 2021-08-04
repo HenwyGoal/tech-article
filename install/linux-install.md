@@ -22,20 +22,25 @@
 1. 创建新虚拟机
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/A-01.png)
+
 2. 稍后安装操作系统  
    **也可以直接指定已有的镜像，当然之后顺不顺利就另说了**
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/A-02.png)
+
 3. 选择Linux、Centos7 64位
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/A-03.png)
+
 4. 为虚拟机命名，并指定安装位置
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/A-04.png)
-5. 选择磁盘大小 ==（后期不可修改）==    
+
+5. 选择磁盘大小 ==（后期均可修改）==    
    **看自己实际需要，简单入门使用的话使用建议值20G已经很多了**
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/A-05.png)
+
 6. 进入自定义硬件的部分 ==（后期均可修改）==
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/A-06.png)
@@ -67,13 +72,16 @@
 1. 播放虚拟机
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/B-01.png)
+
 2. 直接安装镜像
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/B-02.png)
+
 3. 选择语言为中文、继续往下走  
    **VMware Tool是必须安装的 但是可以等虚拟机运行成功之后进行 否则耗时太长会心态爆炸**
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/B-03.png)
+
 4. 设置安装信息
 
 项目 | 值
@@ -93,6 +101,7 @@
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/B-05.png)
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/B-06.png)
+
 6. 安装成功后重启
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/B-07.png)
@@ -101,19 +110,23 @@
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/B-08.png)
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/B-09.png)
+
 8. 检查网络设置
 - 打开以太网ensXX
 - 设置主机名为localhost。点击应用
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/B-10.png)
+
 9. 完成配置  
    **即进入到登录页面**
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/B-11.png)
+
 ### C. 使用Linux
 1. 鼠标右键打开终端
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/C-01.png)
+
 2. 键入命令
 - 查看当前ip地址
 ```
@@ -130,6 +143,7 @@ ping www.baidu.com
 > 按Ctrl-C终止ping操作
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/C-03.png)
+
 3. 重新安装VMware Tool
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/linux-install/C-04.png)

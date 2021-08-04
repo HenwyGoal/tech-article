@@ -22,6 +22,7 @@ su / sudo
 yum list installed | grep docker
 ```
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/docker-install/B-02.png)
+
 - 下载docker
 ```
 yum install -y docker
@@ -30,16 +31,19 @@ yum install -y docker
 
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/docker-install/B-03.png)
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/docker-install/B-04.png)
+
 3. 启动docker
 ```
 systemctl start docker
 ```
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/docker-install/B-05.png)
+
 4. 查看docker是否运行
 ```
 systemctl status docker
 ```
 ![image](https://raw.githubusercontent.com/HenwyGoal/tech-article/main/install/img/docker-install/B-06.png)
+
 5. 终止docker
 ```
 systemctl stop docker
@@ -59,6 +63,6 @@ systemctl stop docker
 `docker logs ${containerName}` | 查看容器启动日志
 `docker ps` | 查看正在运行中的容器
 `docker ps -a` | 查看所有已定义的容器
-`docker ps | grep ${keyword}` | 关键字查询正在运行中的容器
-`docker ps -a | grep ${keyword}` | 关键字查询所有已定义的容器
+`docker ps \| grep ${keyword}` | 关键字查询正在运行中的容器
+`docker ps -a \| grep ${keyword}` | 关键字查询所有已定义的容器
 
