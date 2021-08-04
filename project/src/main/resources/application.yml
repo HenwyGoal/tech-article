@@ -1,0 +1,14 @@
+server:
+  port: 18500
+spring:
+  cloud:
+    consul:
+      discovery:
+        health-check-interval: 15s
+        health-check-path: /actuator/health
+        instance-id: ${spring.application.name}-${spring.cloud.client.ip-address}:${server.port}
+        prefer-ip-address: true
+      host: #{linux-ip}
+      port: 8500
+  application:
+    name: test-project
