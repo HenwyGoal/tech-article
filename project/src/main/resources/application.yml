@@ -12,3 +12,11 @@ spring:
       port: 8500
   application:
     name: test-project
+
+# apollo集成
+app:
+  id: test-config # apollo 配置应用的 appid
+apollo:
+  meta: http://#{linux-ip}:8080 # apollo meta-server地址，一般同config-server地址
+  bootstrap:
+    namespaces: application # apollo 使用配置的命名空间，多个以逗号分隔 配置优先级从大到小
